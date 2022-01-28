@@ -21,7 +21,7 @@ export default {
     'about': about
   },
   created() {
-    document.body.style.zoom = 1;
+    document.body.style.zoom = 0.75;
   }
 }
 
