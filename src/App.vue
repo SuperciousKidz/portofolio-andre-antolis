@@ -19,9 +19,6 @@ export default {
     'skills': skills,
     'projects': projects,
     'about': about
-  },
-  created() {
-    // document.body.style.zoom = 0.75;
   }
 }
 

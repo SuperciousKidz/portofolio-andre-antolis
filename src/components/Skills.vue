@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 /*handphone*/
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
   .reveal {
     position: relative;
     transform: translateY(150px);
@@ -119,15 +119,13 @@ export default {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-top: 50px;
   }
 
   .card {
     position: relative;
     border-radius: 5%;
-    width: 23rem;
+    width: 18rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 0 10px;
     text-decoration: none;
@@ -152,7 +150,7 @@ export default {
   #description {
     font-family: Arial;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 30px;
     letter-spacing: 2px;
     line-height: 35px;
@@ -222,25 +220,26 @@ export default {
 
   img {
     border-radius: 10%;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
   #cards {
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .card {
     position: relative;
     border-radius: 5%;
-    width: 23rem;
+    width: 18rem;
+    height: 23rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 0 10px;
     text-decoration: none;

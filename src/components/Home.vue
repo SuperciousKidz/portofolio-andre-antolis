@@ -30,17 +30,17 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
   /*handphone*/
   #body-right {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   #span-right {
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial;
-    margin-top: 21px;
+    margin-top: 25px;
     letter-spacing: 2px;
     padding-left: 60px;
   }
@@ -54,7 +54,7 @@ export default {
 
   .option li {
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial;
     font-weight: 500;
     position: relative;
@@ -80,7 +80,8 @@ export default {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 90px;
+    margin-top: 20px;
+    height: 50px;
     background: white;
     border-left: 10px solid darkslategray;
     animation: typing 3s steps(12) infinite;
@@ -96,13 +97,13 @@ export default {
     }
   }
   #body-home {
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
   .profile {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,14 +184,14 @@ export default {
   #body-home {
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 130px;
   }
   .profile {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: 5px solid white;
-    margin-left: 25px;
+    margin-left: 145px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   #home {

@@ -75,12 +75,12 @@ export default {
 .position-navbar {
   margin-top: -15px;
 }
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
 
   span {
     position: relative;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
     padding-bottom: 30px;
@@ -108,7 +108,7 @@ export default {
   .font-left {
     font-family: Arial;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     background-image: linear-gradient(
         to right,
         white 0%,
@@ -166,7 +166,7 @@ export default {
   .font-right {
     font-family: Arial;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     letter-spacing: 2px;
   }
 
@@ -174,7 +174,7 @@ export default {
     font-family: Arial;
     font-weight: bold;
     margin-left: 80px;
-    font-size: 50px;
+    font-size: 40px;
     background-image: linear-gradient(
         to right,
         black 0%,

@@ -65,11 +65,11 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
   .social-links {
     display: flex;
     margin-top: 50px;
-    margin-left: 45px;
+    justify-content: center;
   }
 
   .social-links a {
@@ -283,8 +283,9 @@ export default {
 
   img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    margin-right: 140px;
     border: 5px solid white;
     margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -298,7 +299,7 @@ export default {
   #description {
     font-family: Arial;
     font-size: 18px;
-    margin-top: 200px;
+    margin-top: 100px;
     letter-spacing: 2px;
     line-height: 35px;
     width: 40%;

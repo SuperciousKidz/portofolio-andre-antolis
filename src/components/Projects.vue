@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
   .reveal {
     position: relative;
     transform: translateY(150px);
@@ -111,7 +111,7 @@ export default {
   #description {
     font-family: Arial;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 30px;
     letter-spacing: 2px;
     line-height: 35px;
