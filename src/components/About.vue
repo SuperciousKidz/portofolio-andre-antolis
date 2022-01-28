@@ -316,7 +316,7 @@ export default {
 
   #aboutme {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: linear-gradient(
         to right,
         white 0%,
@@ -324,6 +324,7 @@ export default {
         rgba(0, 0, 0, 0.2) 50%,
         rgba(0, 0, 0, 0.6) 100%
     );
+    padding-bottom: 100px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
 }
