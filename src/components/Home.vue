@@ -5,7 +5,7 @@
       <div id="body-home">
         <img class="profile" src="../assets/profile.jpg" />
         <div id="body-right">
-          <span id="span-right">I'm a</span>
+          <span id="span-right">I'm a a</span>
           <ul class="option">
             <li><span>Software Engineer</span></li>
             <li><span>Programmer</span></li>
