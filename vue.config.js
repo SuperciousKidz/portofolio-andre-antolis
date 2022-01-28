@@ -1,3 +1,7 @@
 module.exports = {
-    publicPath: '/portofolio-andre-antolis'
+    pwa: {
+        workboxOptions: {
+            exclude: [/_redirects/]
+        }
+    }
 }
